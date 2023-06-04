@@ -20,5 +20,14 @@ int main()
     {
         cout << b << '\n';
     }
+    cout << "Min number: ";
+    if (a < b)
+    {
+        cout << a << '\n';
+    }
+    else
+    {
+        cout << b << '\n';
+    }
     return 0;
 }
